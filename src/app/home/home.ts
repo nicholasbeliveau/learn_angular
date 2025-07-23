@@ -28,7 +28,7 @@ export class Home {
     );
   }
 
-constructor() {
+  constructor() {
     this.housingService
       .getAllHousingLocations()
       .then((housingLocationList: HousingLocationInfo[]) => {
