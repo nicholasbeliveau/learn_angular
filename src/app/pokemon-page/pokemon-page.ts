@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { Pokemon } from '../pokemon/pokemon';
 import { PokemonInfo } from '../pokemonInfo';
-import { PokemonService } from '../pokemon.service';
+import { PokemonService } from '../services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon-page',
